@@ -71,7 +71,7 @@ public class Animations : MonoBehaviour {
     IEnumerator GrenadeInstantiate()
     {
         yield return new WaitForSeconds(5);
-        transform.Rotate(0, 55, 0);
+        transform.Rotate(0, 45, 0);
 
         //instantiate grenade
         GameObject temp = Instantiate(Grenade, RightHandPos.position, RightHandPos.rotation);
